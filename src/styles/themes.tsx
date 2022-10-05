@@ -16,11 +16,16 @@ ColorButtonScanner: "#A3F8E8",
 ColorButtonImpR:"#68EC53",
 ColorButtonImpElpr:"#53EC7D",
 ColorButtonImpc:"#53E3EC",
+ColorButtonOnboarding:"#53A2EC",
+ColorButtonSenha:"#E0EC53",
+
 
 ColorButtonServer:'#6853EC',
 ColorTextServer:"#E1DEF3",
 ColorButtonFileServer:"#CD53EC",
 ColorButtonTextFileserver:"#E6D0EC",
+
+
 
 
 

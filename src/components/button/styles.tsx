@@ -15,7 +15,7 @@ border-radius: 5px;
 transition: 0.5s ease all;
 
 &:hover {
-    filter: brightness(1.08);
+    filter: brightness(1.5);
   }
 `;
     
