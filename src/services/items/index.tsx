@@ -101,6 +101,7 @@ export const items =[
         {header:'TEMPO DE ESPERA',text:'Há quanto tempo está com esse status no cadastro do cliente?'},
         {header:'EVIDÊNCIA',text:'Me envia uma foto do status demonstrado no sistema para o cliente, preciso do CPF do cliente impactado também.'},
         {header:'AGUARDAR',text:'É necessário aguardar por no máximo 20 min, pois este é o tempo necessário para que o sistema valide todos os passos de segurança da plataforma.'},
+        {header:'CPF IMPACTADO',text:'Qual seria o CPF do cliente impactado?'},
     ]
     }
     ,
@@ -114,5 +115,13 @@ export const items =[
         {header:'FINALIZAÇÃO D/R',text:'Realizado desbloqueio e reset de acesso, enviado informações sobre a nova senha para o e-mail do GER.'},
     ]
     }
+,
+{
+    nameItem:'WEBCAM',
+values:[
+    {header:'INFO DO MICRO',text:'Me informa o ip do micro que está apresentando este problema.'},
+    {header:'RECONECTAR',text:'Reconecta o cabo usb da webcam, por gentileza. Assim que fizer o procedimento, me sinaliza. Troca de porta usb da webcam, utiliza uma porta usb que tem na parte de trás do micro.'},
+]
+}
 ]
 

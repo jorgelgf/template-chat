@@ -19,6 +19,7 @@ export default function Home(){
     const handleClickCa =()=> navigation('/impcart')
     const handleClickOnBoarding =()=> navigation('/onboarding')
     const handleClickOnSenha =()=> navigation('/senha')
+    const handleClickWeb =()=> navigation('/webcam')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -33,8 +34,10 @@ return(<S.Container>
   <Button style={themes.ColorButtonMobile}  onClick={handleClickMobile} color={themes.colorTexBottom}>PDV MOBILE</Button>
   </div>
 
-  <S.DivTitle>PC - SCANNER - IMP RELATÓRIO</S.DivTitle>  <div>
+  <S.DivTitle>PC - SCANNER - IMP RELATÓRIO - WEBCAM</S.DivTitle>  <div>
   <Button style={themes.ColorButtonPC} onClick={handleClickPc} color={themes.colorTexBottom}>PC</Button>
+  <Button style={themes.ColorButtonScanner} onClick={handleClickWeb} color={themes.colorTexBottom}>WEBCAM</Button>
+
   <Button style={themes.ColorButtonScanner} onClick={handleClickScanner}color={themes.colorTexBottom}>SCANNER</Button>
   <Button style={themes.ColorButtonImpR}  onClick={handleClickImpR} color={themes.colorTexBottom}>IMP RELATÓRIO</Button>
   </div>

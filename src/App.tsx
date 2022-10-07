@@ -14,6 +14,7 @@ import ImpEt from './pages/Imp-Etiqueta';
 import ImpCart from './pages/ImpCartao';
 import OnBoarding from './pages/OnBoarding';
 import Senha from './pages/Senha';
+import Webcam from './pages/Webcam';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path='/impcart' element={<ImpCart/>}/>
         <Route path='/onboarding' element={<OnBoarding/>}/>
         <Route path='/senha' element={<Senha/>}/>
+        <Route path='/webcam' element={<Webcam/>}/>
 
 
 
