@@ -15,6 +15,7 @@ import ImpCart from './pages/ImpCartao';
 import OnBoarding from './pages/OnBoarding';
 import Senha from './pages/Senha';
 import Webcam from './pages/Webcam';
+import Massivo from './pages/Massivo';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
         <Route path='/onboarding' element={<OnBoarding/>}/>
         <Route path='/senha' element={<Senha/>}/>
         <Route path='/webcam' element={<Webcam/>}/>
+        <Route path='/Massivo' element={<Massivo/>}/>
+
 
 
 

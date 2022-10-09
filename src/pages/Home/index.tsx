@@ -20,6 +20,7 @@ export default function Home(){
     const handleClickOnBoarding =()=> navigation('/onboarding')
     const handleClickOnSenha =()=> navigation('/senha')
     const handleClickWeb =()=> navigation('/webcam')
+    const handleClickMassivo =()=> navigation('/massivo')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -53,9 +54,11 @@ return(<S.Container>
 
   </div>
 
-  <S.DivTitle>SERVER - FILESERVER</S.DivTitle>  <div>
+  <S.DivTitle>SERVER - FILESERVER - MASSIVO</S.DivTitle>  <div>
   <Button style={themes.ColorButtonServer} color={themes.ColorTextServer}>SERVER</Button>
   <Button style={themes.ColorButtonFileServer} color={themes.ColorButtonTextFileserver}>FILESERVER</Button>
+  <Button style={themes.ColorButtonMassivo} onClick={handleClickMassivo} color={themes.bgColor}>MASSIVO</Button>
+
   </div>
 
 

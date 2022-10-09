@@ -26,11 +26,13 @@ export const items =[
         nameItem:'MOBILE',
     values:[
         {header:'SOLUÇÃO GENÉRICA', text:'Realiza o seguinte procedimento: Desliga o mobile, remove a bateria, aguarda 2 min com ele desta forma para após ligar o dispositivo e realizar um teste.'},
-        {header:'CONEXAO', text:'Realiza o seguinte procedimento: Ir para a pagina HOME>selecionar o app HUB> HUB novamente > Na pagina da conta ir em > Este Dispositivo > Perfis > Nesta opção aparecerá todos os perfis disponíveis para o device selecionar o com nome: Wifi - Loja (NOME DA FILIAL) > Depois selecionar reaplicar perfil > Ira aparecer um balão de confirmação clicar em REAPLICAR.'},
-        {header:'NÚMERO MOBILE', text:'Qual é o número do mobile? Ex.: 600, 601... Qual número de inventário/série do mobile?'},
+        {header:'CONEXÃO', text:'Realiza o seguinte procedimento: Ir para a pagina HOME>selecionar o app HUB> HUB novamente > Na pagina da conta ir em > Este Dispositivo > Perfis > Nesta opção aparecerá todos os perfis disponíveis para o device selecionar o com nome: Wifi - Loja (NOME DA FILIAL) > Depois selecionar reaplicar perfil > Ira aparecer um balão de confirmação clicar em REAPLICAR.'},
+        {header:'NÚMERO MOBILE', text:'Me informa o número de série/inventário do mobile impactado. Geralmente tem uma etiqueta com esta numeração atrás do equipamento, caso não tenha, será necessário remover a bateria do mesmo e enviar uma foto das etiquetas internas do dispositivos (ficam atrás da bateria). Aguardo esta informação'},
+        {header:'NÚMERO SÉRIE/INVENT', text:'Qual é o número do mobile? Ex.: 600, 601... Qual número de inventário/série do mobile?'},
         {header:'REINSTALAR APLICATIVO', text:'Aguarde um momento, irei realizar a reparo na aplicação'},
         {header:'ERRO', text:'Me envia uma foto do erro gerado, por gentileza. Apenas um mobile apresenta este mesmo problema em loja?'},
         {header:'PROBLEMAS SAT PDV', text:'Tem algum pdv em loja com erro no SAT?'},
+        {header:'IMP WIFI NÃO FUNCIONA', text:'Desliga a impressora, tira ela da tomada, tira o adaptador de rede, deixe ela desta forma por uns 5 min. Após esse processo, liga a impressora, deixa ela uns 2 min ligado e somente após esse tempo insere o adaptador de rede, aguardar mais 2 min e realiza o teste novamente.'},
         {header:'PROMELA DE ACESSO COLAB', text:'Me informa a matrícula do colaborador impactado, por gentileza.'},
     ]},
     {
@@ -102,6 +104,7 @@ export const items =[
         {header:'EVIDÊNCIA',text:'Me envia uma foto do status demonstrado no sistema para o cliente, preciso do CPF do cliente impactado também.'},
         {header:'AGUARDAR',text:'É necessário aguardar por no máximo 20 min, pois este é o tempo necessário para que o sistema valide todos os passos de segurança da plataforma.'},
         {header:'CPF IMPACTADO',text:'Qual seria o CPF do cliente impactado?'},
+        {header:'PROBLEMAS CONTATO TOKEN',text:'Para mudança de contato de autenticação no sistema, é necessário abertura de chamado para Gestão de Acessos.'},
     ]
     }
     ,
@@ -123,5 +126,11 @@ values:[
     {header:'RECONECTAR',text:'Reconecta o cabo usb da webcam, por gentileza. Assim que fizer o procedimento, me sinaliza. Troca de porta usb da webcam, utiliza uma porta usb que tem na parte de trás do micro.'},
 ]
 }
+,
+{
+    nameItem:'MASSIVO',
+}
+
+
 ]
 

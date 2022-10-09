@@ -19,6 +19,7 @@ ColorButtonImpElpr:"#53EC7D",
 ColorButtonImpc:"#53E3EC",
 ColorButtonOnboarding:"#53A2EC",
 ColorButtonSenha:"#E0EC53",
+ColorButtonMassivo:"#e68a12",
 
 
 ColorButtonServer:'#6853EC',
