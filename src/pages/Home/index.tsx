@@ -21,6 +21,7 @@ export default function Home(){
     const handleClickOnSenha =()=> navigation('/senha')
     const handleClickWeb =()=> navigation('/webcam')
     const handleClickMassivo =()=> navigation('/massivo')
+    const handleClickLocker =()=> navigation('/Locker')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -48,12 +49,12 @@ return(<S.Container>
   <Button style={themes.ColorButtonImpc} onClick={handleClickCa}color={themes.colorTexBottom}>IMP CARTÃO</Button>
   </div>
 
-  <S.DivTitle>ONBOARDING - SICC - SENHA</S.DivTitle>  <div>
+  <S.DivTitle>ONBOARDING - SICC - SENHA - LOCKER</S.DivTitle>  <div>
   <Button style={themes.ColorButtonOnboarding} onClick={handleClickOnBoarding} color={themes.colorTexBottom}>ONBOARDING</Button>
   <Button style={themes.ColorButtonSenha} onClick={handleClickOnSenha} color={themes.colorTexBottom}>SENHA</Button>
-
+  <Button style={themes.ColorButtonLocker} onClick={handleClickLocker} color={themes.colorTexBottom}>LOCKER</Button>
   </div>
-
+ 
   <S.DivTitle>SERVER - FILESERVER - MASSIVO</S.DivTitle>  <div>
   <Button style={themes.ColorButtonServer} color={themes.ColorTextServer}>SERVER</Button>
   <Button style={themes.ColorButtonFileServer} color={themes.ColorButtonTextFileserver}>FILESERVER</Button>

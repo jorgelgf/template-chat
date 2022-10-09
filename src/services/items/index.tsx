@@ -130,7 +130,15 @@ values:[
 {
     nameItem:'MASSIVO',
 }
+,
+{
+    nameItem:'LOCKER',
+values:[
+    {header:'ACESSO',text:'Preciso do nome completo, CPF, cargo e número de matrícula do usuário que precisa do acesso.'},
 
+]
+}
+,
 
 ]
 
