@@ -24,6 +24,7 @@ ColorButtonLocker:"#10b3ff",
 
 
 ColorButtonServer:'#6853EC',
+ColorButtonTv:'#270cd3',
 ColorTextServer:"#E1DEF3",
 ColorButtonFileServer:"#CD53EC",
 ColorButtonTextFileserver:"#E6D0EC",

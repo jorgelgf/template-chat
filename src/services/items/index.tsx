@@ -139,6 +139,15 @@ values:[
 ]
 }
 ,
+{
+    nameItem:'TV',
+values:[
+    {header:'NAO LIGA',text:'As Tvs não apresentam nenhum sinal de energizada? Nenhum led aceso?'},
+    {header:'TESTE ENERGIA',text:'Tenta desconectar o cabo de energia dela, conecta algum carregador de celular e valida se o carregador está funcionando (este passo é para podermos validar se tem energia no local que liga a TV).'},
+
+]
+}
+,
 
 ]
 

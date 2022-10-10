@@ -17,6 +17,7 @@ import Senha from './pages/Senha';
 import Webcam from './pages/Webcam';
 import Massivo from './pages/Massivo';
 import Locker from './pages/Locker';
+import Tv from './pages/Tv';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path='/webcam' element={<Webcam/>}/>
         <Route path='/Massivo' element={<Massivo/>}/>
         <Route path='/Locker' element={<Locker/>}/>
+        <Route path='/Tv' element={<Tv/>}/>
 
 
 
