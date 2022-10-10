@@ -4,6 +4,7 @@ import { Header } from '../../components/header';
 import { HeaderItem } from '../../components/header/HeaderItem';
 import { items } from '../../services/items';
 import mm from '../../img/mm.jpg'
+import mv from '../../img/mv.jpg'
 import * as S from './styles'
 
 export default function Tv(){
@@ -30,6 +31,10 @@ export default function Tv(){
 
   <div style={{marginTop:'40px',width:'100%',display:'flex', alignItems:'center', justifyContent:'center'}}>
   <img src ={mm} style={{borderRadius:'15px'}}alt='onboarding redirect'/>
+  </div>
+
+  <div style={{marginTop:'40px',width:'100%',display:'flex', alignItems:'center', justifyContent:'center'}}>
+  <img src ={mv} style={{borderRadius:'15px'}}alt='onboarding redirect'/>
   </div>
     </S.Container>
     </>
