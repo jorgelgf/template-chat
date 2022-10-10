@@ -142,9 +142,9 @@ values:[
 {
     nameItem:'TV',
 values:[
-    {header:'NAO LIGA',text:'As Tvs não apresentam nenhum sinal de energizada? Nenhum led aceso?'},
+    {header:'NAO LIGA',text:'As Tvs apresentam algum sinal de energizada? Alugm led aceso?'},
     {header:'TESTE ENERGIA',text:'Tenta desconectar o cabo de energia dela, conecta algum carregador de celular e valida se o carregador está funcionando (este passo é para podermos validar se tem energia no local que liga a TV).'},
-
+    {header:'MinMac',text:'Tem um micro em loja, que é responsável por esses painéis, ele é um MiniMac. É um computador fininho, geralmente prateado, tem um ícone de uma maçã em cima dele, o equipamento fica no CPD. Ele é semelhante a imagem abaixo. Poderia identificar o equipamento? Aguardo você.'},
 ]
 }
 ,
