@@ -11,7 +11,7 @@ export default function OnBoarding(){
     const name = item.nameItem as string;
 
 //item.values.map((p,i)=>console.log('Index: ',i, 'Value: ',p))
-console.log( item)
+
     return<>
 
      

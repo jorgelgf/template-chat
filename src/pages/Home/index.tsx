@@ -23,6 +23,7 @@ export default function Home(){
     const handleClickMassivo =()=> navigation('/massivo')
     const handleClickLocker =()=> navigation('/Locker')
     const handleClickTv =()=> navigation('/Tv')
+    const handleClickFilServer =()=> navigation('/FilServer')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -57,8 +58,8 @@ return(<S.Container>
   </div>
  
   <S.DivTitle>SERVER - FILESERVER - MASSIVO - TV</S.DivTitle>  <div>
-  <Button style={themes.ColorButtonServer} color={themes.ColorTextServer}>SERVER</Button>
-  <Button style={themes.ColorButtonFileServer} color={themes.ColorButtonTextFileserver}>FILESERVER</Button>
+  <Button style={themes.ColorButtonServer}  color={themes.ColorTextServer}>SERVER</Button>
+  <Button style={themes.ColorButtonFileServer} onClick={handleClickFilServer} color={themes.ColorButtonTextFileserver}>FILESERVER</Button>
   <Button style={themes.ColorButtonMassivo} onClick={handleClickMassivo} color={themes.bgColor}>MASSIVO</Button>
   <Button style={themes.ColorButtonTv} onClick={handleClickTv}color={themes.ColorTextServer}>TV</Button>
 

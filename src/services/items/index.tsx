@@ -149,5 +149,16 @@ values:[
 }
 ,
 
+{
+    nameItem:'FILSERVER',
+values:[
+    {header:'NAO LIGA',text:'Tem um computador, que fica no CPD, este micro é um DELL, fininho, semelhante ao da foto abaixo. Preciso que você o encontre, por gentileza.'},
+    {header:'REINICAR EQUIPAMENTO',text:'Poderia reiniciar o equipamento? Por gentileza.'},
+]
+}
+,
+
+
+
 ]
 

@@ -18,6 +18,7 @@ import Webcam from './pages/Webcam';
 import Massivo from './pages/Massivo';
 import Locker from './pages/Locker';
 import Tv from './pages/Tv';
+import FilServer from './pages/FileServer';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path='/Massivo' element={<Massivo/>}/>
         <Route path='/Locker' element={<Locker/>}/>
         <Route path='/Tv' element={<Tv/>}/>
+        <Route path='/FilServer' element={<FilServer/>}/>
 
 
 
