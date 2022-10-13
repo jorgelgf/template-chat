@@ -35,6 +35,8 @@ export default function OnBoarding(){
    <S.DivInfo>INFORMAÇÕES P/ DIRECIONAMENTO
 <img src ={onboarding} alt='onboarding redirect'/>
 
+Clique <a href='https://riachuelo.atlassian.net/wiki/spaces/SD/pages/1840152581/Sistema+Loja+-+Cadastros+e+Propostas+Onboarding+-+Trobleshooting' target='_blank' rel="noreferrer">AQUI</a> para referência.
+
    </S.DivInfo>
     </S.Container>
     </>
