@@ -3,7 +3,7 @@ export const items =[
     {
         nameItem:'HI/BYE',
     values:
-    [{header:'HI', text:'Olá, eu sou Jorge Luís Gurgel Fernandes, aguarde um momento enquanto estou analisando sua solicitação.'},
+    [{header:'HI', text:'Olá, eu sou ..., aguarde um momento enquanto estou analisando sua solicitação.'},
     {header:'BYE', text:'Vou finalizar o atendimento por aqui. Qualquer outra eventualidade só nos contatar via chatbot. Um abraço e bom trabalho pra ti.'}]
     },
     
@@ -104,6 +104,7 @@ export const items =[
         {header:'EVIDÊNCIA',text:'Me envia uma foto do status demonstrado no sistema para o cliente, preciso do CPF do cliente impactado também.'},
         {header:'AGUARDAR',text:'É necessário aguardar por no máximo 20 min, pois este é o tempo necessário para que o sistema valide todos os passos de segurança da plataforma.'},
         {header:'CPF IMPACTADO',text:'Qual seria o CPF do cliente impactado?'},
+        {header:'IP DO MICRO',text:'Me informa o ip do computador para realizarmos alguns testes.'},
         {header:'PROBLEMAS CONTATO TOKEN',text:'Para mudança de contato de autenticação no sistema, é necessário abertura de chamado para Gestão de Acessos.'},
     ]
     }
