@@ -27,8 +27,8 @@ export const items =[
     values:[
         {header:'SOLUÇÃO GENÉRICA', text:'Realiza o seguinte procedimento: Desliga o mobile, remove a bateria, aguarda 2 min com ele desta forma para após ligar o dispositivo e realizar um teste.'},
         {header:'CONEXÃO', text:'Realiza o seguinte procedimento: Ir para a pagina HOME>selecionar o app HUB> HUB novamente > Na pagina da conta ir em > Este Dispositivo > Perfis > Nesta opção aparecerá todos os perfis disponíveis para o device selecionar o com nome: Wifi - Loja (NOME DA FILIAL) > Depois selecionar reaplicar perfil > Ira aparecer um balão de confirmação clicar em REAPLICAR.'},
-        {header:'NÚMERO MOBILE', text:'Me informa o número de série/inventário do mobile impactado. Geralmente tem uma etiqueta com esta numeração atrás do equipamento, caso não tenha, será necessário remover a bateria do mesmo e enviar uma foto das etiquetas internas do dispositivos (ficam atrás da bateria). Aguardo esta informação'},
-        {header:'NÚMERO SÉRIE/INVENT', text:'Qual é o número do mobile? Ex.: 600, 601... Qual número de inventário/série do mobile?'},
+        {header:'NÚMERO SÉRIE/INVENT', text:'Me informa o número de série/inventário do mobile impactado. Geralmente tem uma etiqueta com esta numeração atrás do equipamento, caso não tenha, será necessário remover a bateria do mesmo e enviar uma foto das etiquetas internas do dispositivos (ficam atrás da bateria). Aguardo esta informação'},
+        {header:'NÚMERO MOBILE', text:'Qual é o número do mobile? Ex.: 600, 601... Qual número de inventário/série do mobile?'},
         {header:'REINSTALAR APLICATIVO', text:'Aguarde um momento, irei realizar a reparo na aplicação'},
         {header:'ERRO', text:'Me envia uma foto do erro gerado, por gentileza. Apenas um mobile apresenta este mesmo problema em loja?'},
         {header:'PROBLEMAS SAT PDV', text:'Tem algum pdv em loja com erro no SAT?'},
@@ -51,6 +51,7 @@ export const items =[
     {
         nameItem:'SCANNER',
     values:[
+        {header:'RECONECTAR CABO',text:'Reconecta o cabo usb da Scanner. Troca de porta usb da scanner, tenta conectar em uma porta usb que fica atrás do computador, aguardo você.'},
         {header:'ERRO SMARTOUCH VERMELHO',text:'Fecha a tampa da scanner, após abre e insere uma folha dentro do equipamento para testarmos. É importante que o equipamento esteja ligado. Assim que realizar este procedimento, me sinaliza'},
         {header:'ERRO DISPLAY',text:'A scanner apresenta algum led em vermelho com numeração no display? Me envia uma foto/vídeo demonstrando este erro no display'},
         {header:'INVENT/SÉRIE?',text:'Me informa o número de série/inventário da scanner, geralmente tem uma etiqueta colada no próprio equipamento, preciso de uma foto contendo esta numeração.'},
