@@ -14,6 +14,7 @@ import PC from "./PC";
 import PDV from "./PDV";
 import Scanner from "./Scanner";
 import Senha from "./Senha";
+import Sicc from "./Sicc";
 import Tv from "./Tv";
 import Webcam from "./Webcam";
 
@@ -37,6 +38,8 @@ export default function Rout (){
         <Route path='/Locker' element={<Locker/>}/>
         <Route path='/Tv' element={<Tv/>}/>
         <Route path='/FilServer' element={<Filserver/>}/>
+        <Route path='/Sicc' element={<Sicc/>}/>
+
         </Routes>
     </>
 }

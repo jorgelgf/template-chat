@@ -9,9 +9,9 @@ export const items =[
     
     {
         nameItem:'PDV', values:[
-            {header: "RECONECTAR CABOS", text: `Realiza o seguinte procedimento:${'\n'}Desliga o pdv, desconecta os cabos e adaptadores dele, deixa 5 min desligado desta forma para após reconectar tudo e volta a ligar o PDV.`},
+            {header: "RECONECTAR CABOS", text: `Realiza o seguinte procedimento: Desliga o pdv, desconecta os cabos e adaptadores dele, deixa 5 min desligado desta forma para após reconectar tudo e volta a ligar o PDV.`},
             {header: "INFO PDV", text: "Me informa o número do PDV (Ex.: PDV001)"},
-            {header:'INVENT/SÉRIE', text: '\nMe diz o número de inventário/série do PDV. No Equipamento terá uma etiqueta com essa numeração. Pode ser que ela se encontre atrás do monitor. Aguardo esta informação.'},
+            {header:'INVENT/SÉRIE', text: 'Me diz o número de inventário/série do PDV. No Equipamento terá uma etiqueta com essa numeração. Pode ser que ela se encontre atrás do monitor. Aguardo esta informação.'},
             {header: "HOSTNAME PDV", text: "Insere um mouse no pdv, pressiona o botão direito do mouse na tela do pdv, escolhe a opção console e após me envia uma foto da tela do PDV para eu poder observar o número dele, por gentileza."},
             {header: "ANÁLISE", text: "Vou analisar o PDV, só um momento."},
             {header: "CONSULTA IMP", text: "Preciso que reconecte o cabo usb da impressora. Assim que realizar o procedimento, me sinaliza por gentileza. Estou monitorando."},
@@ -125,6 +125,7 @@ export const items =[
     nameItem:'WEBCAM',
 values:[
     {header:'INFO DO MICRO',text:'Me informa o ip do micro que está apresentando este problema.'},
+    {header:'INFO WEBCAM',text:'Me informa o número de série/inventário da webcam impactada'},
     {header:'RECONECTAR',text:'Reconecta o cabo usb da webcam, por gentileza. Assim que fizer o procedimento, me sinaliza. Troca de porta usb da webcam, utiliza uma porta usb que tem na parte de trás do micro.'},
 ]
 }
@@ -157,6 +158,14 @@ values:[
 values:[
     {header:'NAO LIGA',text:'Tem um computador, que fica no CPD, este micro é um DELL, fininho, semelhante ao da foto abaixo. Preciso que você o encontre, por gentileza.'},
     {header:'REINICAR EQUIPAMENTO',text:'Poderia reiniciar o equipamento? Por gentileza.'},
+]
+}
+,
+{
+    nameItem:'SICC',
+values:[
+    {header:'INFO CLIENTE',text:'Me informa o nome e CPF do cliente impactado, por gentileza.'},
+    {header:'ERRO',text:'Preciso que você realize um teste para eu poder analisar o erro gerado no sistema.'},
 ]
 }
 ,

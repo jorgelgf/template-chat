@@ -21,13 +21,14 @@ ColorButtonOnboarding:"#53A2EC",
 ColorButtonSenha:"#E0EC53",
 ColorButtonMassivo:"#e68a12",
 ColorButtonLocker:"#10b3ff",
-
+ColorButtonSicc:"#10ffb7",
 
 ColorButtonServer:'#6853EC',
 ColorButtonTv:'#270cd3',
 ColorTextServer:"#E1DEF3",
 ColorButtonFileServer:"#CD53EC",
 ColorButtonTextFileserver:"#E6D0EC",
+
 
 
 

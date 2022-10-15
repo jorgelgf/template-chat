@@ -24,6 +24,7 @@ export default function Home(){
     const handleClickLocker =()=> navigation('/Locker')
     const handleClickTv =()=> navigation('/Tv')
     const handleClickFilServer =()=> navigation('/FilServer')
+    const handleClickFilSicc =()=> navigation('/Sicc')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -53,6 +54,7 @@ return(<S.Container>
 
   <S.DivTitle>ONBOARDING - SICC - SENHA - LOCKER</S.DivTitle>  <div>
   <Button style={themes.ColorButtonOnboarding} onClick={handleClickOnBoarding} color={themes.colorTexBottom}>ONBOARDING</Button>
+  <Button style={themes.ColorButtonSicc} onClick={handleClickFilSicc} color={themes.colorTexBottom}>SICC</Button>
   <Button style={themes.ColorButtonSenha} onClick={handleClickOnSenha} color={themes.colorTexBottom}>SENHA</Button>
   <Button style={themes.ColorButtonLocker} onClick={handleClickLocker} color={themes.colorTexBottom}>LOCKER</Button>
   </div>
