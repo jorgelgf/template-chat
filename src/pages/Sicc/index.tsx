@@ -4,7 +4,7 @@ import { Header } from '../../components/header';
 import { HeaderItem } from '../../components/header/HeaderItem';
 import { items } from '../../services/items';
 import * as S from './styles'
-import fs from '../../img/fs.jpg'
+
 
 export default function Sicc(){
     const item = items[15]
