@@ -25,6 +25,7 @@ export default function Home(){
     const handleClickTv =()=> navigation('/Tv')
     const handleClickFilServer =()=> navigation('/FilServer')
     const handleClickFilSicc =()=> navigation('/Sicc')
+    const handleClickPinMobile =()=> navigation('/PinMobile')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -34,9 +35,10 @@ return(<S.Container>
   <Button style={themes.colorButtonHi} onClick={handleClickHi} color={themes.colorTexBottom}>HI/Bye</Button>
   </div>
 
-  <S.DivTitle>PDV - MOBILE</S.DivTitle>  <div>
+  <S.DivTitle>PDV - MOBILE - PINPAD MOBILE</S.DivTitle>  <div>
   <Button style={themes.ColorButtonPDV} onClick={handleClickPDV}color={themes.colorTexBottom} >PDV</Button>
   <Button style={themes.ColorButtonMobile}  onClick={handleClickMobile} color={themes.colorTexBottom}>PDV MOBILE</Button>
+  <Button style={themes.ColorButtonPinMobile}  onClick={handleClickPinMobile} color={themes.colorTexBottom}>PIN MOBILE</Button>  
   </div>
 
   <S.DivTitle>PC - SCANNER - IMP RELATÓRIO - WEBCAM</S.DivTitle>  <div>

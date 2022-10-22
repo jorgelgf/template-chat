@@ -138,6 +138,7 @@ values:[
     nameItem:'LOCKER',
 values:[
     {header:'ACESSO',text:'Preciso do nome completo, CPF, cargo e número de matrícula do usuário que precisa do acesso.'},
+    {header:'MENSAGEM AGUARDE',text:'Certo, um momento que vou realizar um acionamento.'},
 
 ]
 }
@@ -166,6 +167,13 @@ values:[
 values:[
     {header:'INFO CLIENTE',text:'Me informa o nome e CPF do cliente impactado, por gentileza.'},
     {header:'ERRO',text:'Preciso que você realize um teste para eu poder analisar o erro gerado no sistema.'},
+]
+}
+,
+{
+    nameItem:'PINPAD MOBILE',
+values:[
+    {header:'NUM. SÉRIE/INVENTÁRIO',text:'Me informa o número de série/inventário do pinpad. Caso a etiqueta na parte de trás do dispositivo esteja muito apagada, remove a tampa traseira e tira a bateria do equipamento e me envia uma foto da etiqueta interna do aparelho. Aguardo você.'},
 ]
 }
 ,

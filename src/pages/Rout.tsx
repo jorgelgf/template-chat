@@ -12,6 +12,7 @@ import Mobile from "./Mobile";
 import OnBoarding from "./OnBoarding";
 import PC from "./PC";
 import PDV from "./PDV";
+import PinMobile from "./Pinpad-mobile";
 import Scanner from "./Scanner";
 import Senha from "./Senha";
 import Sicc from "./Sicc";
@@ -38,7 +39,8 @@ export default function Rout (){
         <Route path='/Locker' element={<Locker/>}/>
         <Route path='/Tv' element={<Tv/>}/>
         <Route path='/FilServer' element={<Filserver/>}/>
-        <Route path='/Sicc' element={<Sicc/>}/>
+        <Route path='/Sicc' element={<Sicc/>}/>   
+        <Route path='/PinMobile' element={<PinMobile/>}/>
 
         </Routes>
     </>

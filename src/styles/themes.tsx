@@ -22,6 +22,8 @@ ColorButtonSenha:"#E0EC53",
 ColorButtonMassivo:"#e68a12",
 ColorButtonLocker:"#10b3ff",
 ColorButtonSicc:"#10ffb7",
+ColorButtonPinMobile:"#ccd896",
+
 
 ColorButtonServer:'#6853EC',
 ColorButtonTv:'#270cd3',
