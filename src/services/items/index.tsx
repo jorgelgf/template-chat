@@ -4,7 +4,8 @@ export const items =[
         nameItem:'HI/BYE',
     values:
     [{header:'HI', text:'Olá, eu sou ..., aguarde um momento enquanto estou analisando sua solicitação.'},
-    {header:'BYE', text:'Vou finalizar o atendimento por aqui. Qualquer outra eventualidade só nos contatar via chatbot. Um abraço e bom trabalho pra ti.'}]
+    {header:'BYE', text:'Vou finalizar o atendimento por aqui. Qualquer outra eventualidade só nos contatar via chatbot. Um abraço e bom trabalho pra ti.'},
+    {header:'DIRECIONAMENTO PADRÃO', text:'Poderiam ajudar a loja com a situação? Por gentileza.'}]
     },
     
     {
