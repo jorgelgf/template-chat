@@ -13,6 +13,7 @@ import OnBoarding from "./OnBoarding";
 import PC from "./PC";
 import PDV from "./PDV";
 import PinMobile from "./Pinpad-mobile";
+import PinPdv from "./Pinpad-PDV";
 import Scanner from "./Scanner";
 import Senha from "./Senha";
 import Sicc from "./Sicc";
@@ -41,6 +42,7 @@ export default function Rout (){
         <Route path='/FilServer' element={<Filserver/>}/>
         <Route path='/Sicc' element={<Sicc/>}/>   
         <Route path='/PinMobile' element={<PinMobile/>}/>
+        <Route path='/PinPdv' element={<PinPdv/>}/>
 
         </Routes>
     </>

@@ -178,7 +178,12 @@ values:[
 ]
 }
 ,
-
+{
+    nameItem:'PINPAD PDV',
+values:[
+    {header:'NUM. SÉRIE/INVENTÁRIO',text:'Me envia uma foto das etiquetas que constam atrás do pinpad, por gentileza.'},
+]
+}
 
 
 ]
