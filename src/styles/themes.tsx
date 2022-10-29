@@ -8,6 +8,7 @@ ColorHeaderItem: "#E8E4F0",
 colorTexBottom: '#2C302B',
 
 colorButtonHi: "#96EC53",
+colorButtonFiltro: "#ece253",
 ColorButtonBye: "#EC6553",
 ColorButtonPDV: "#EC6553",
 ColorButtonMobile: "#EC9C53",

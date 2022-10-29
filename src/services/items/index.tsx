@@ -184,6 +184,14 @@ values:[
     {header:'NUM. SÉRIE/INVENTÁRIO',text:'Me envia uma foto das etiquetas que constam atrás do pinpad, por gentileza.'},
 ]
 }
+,
+{
+    nameItem:'FILTROS',
+values:[
+    {header:'CHAMADOS ABERTOS LOJA',text:'"Loja[Dropdown]" = "168 - AM Manaus Amazonas Sh" AND statusCategory != Done'},
+    {header:'TODOS CHAMADOS',text:'"Loja[Dropdown]" = "168 - AM Manaus Amazonas Sh" '},
+]
+}
 
 
 ]

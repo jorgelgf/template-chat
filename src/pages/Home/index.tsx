@@ -27,6 +27,7 @@ export default function Home(){
     const handleClickFilSicc =()=> navigation('/Sicc')
     const handleClickPinMobile =()=> navigation('/PinMobile')
     const handleClickPinPdv =()=> navigation('/PinPDv')
+    const handleClickFiltro =()=> navigation('/Filtro')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -34,6 +35,7 @@ return(<S.Container>
 <Layout>
   <div>
   <Button style={themes.colorButtonHi} onClick={handleClickHi} color={themes.colorTexBottom}>HI/Bye</Button>
+  <Button style={themes.colorButtonFiltro} onClick={handleClickFiltro} color={themes.colorTexBottom}>FILTRO</Button>
   </div>
 
   <S.DivTitle>PDV - MOBILE - PINPADs</S.DivTitle>  <div>

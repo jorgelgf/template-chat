@@ -1,6 +1,7 @@
 
 import { Routes,Route } from "react-router-dom";
 import Filserver from "./FileServer";
+import Filtro from "./Filtro";
 import HiBye from "./HiBye";
 import Home from "./Home";
 import ImpEt from "./Imp-Etiqueta";
@@ -43,7 +44,7 @@ export default function Rout (){
         <Route path='/Sicc' element={<Sicc/>}/>   
         <Route path='/PinMobile' element={<PinMobile/>}/>
         <Route path='/PinPdv' element={<PinPdv/>}/>
-
+        <Route path='/Filtro' element={<Filtro/>}/>
         </Routes>
     </>
 }
