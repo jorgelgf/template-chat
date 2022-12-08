@@ -28,6 +28,7 @@ export default function Home(){
     const handleClickPinMobile =()=> navigation('/PinMobile')
     const handleClickPinPdv =()=> navigation('/PinPDv')
     const handleClickFiltro =()=> navigation('/Filtro')
+    const handleClickOutlook =()=> navigation('/Outlook')
 
 return(<S.Container>
    <Header>TEMPLATE CHABOT</Header>
@@ -71,6 +72,11 @@ return(<S.Container>
   <Button style={themes.ColorButtonMassivo} onClick={handleClickMassivo} color={themes.bgColor}>MASSIVO</Button>
   <Button style={themes.ColorButtonTv} onClick={handleClickTv}color={themes.ColorTextServer}>TV</Button>
 
+  </div>
+
+  <S.DivTitle>APPS</S.DivTitle>  <div>
+
+  <Button style={themes.ColorButtonTextOutlook} onClick={handleClickOutlook}  color={themes.colorTexBottom}>OUTLOOK</Button>
   </div>
 
 

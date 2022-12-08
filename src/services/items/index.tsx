@@ -193,7 +193,13 @@ values:[
     {header:'TODOS CHAMADOS',text:'"Loja[Dropdown]" = "168 - AM Manaus Amazonas Sh"'},
 ]
 }
-
+,
+{
+    nameItem:'OUTLOOK',
+values:[
+    {header:'LIMITAÇÃO NO E-MAIL',text:'Os e-mails do DCC, ESC e VEM não estão mais disponíveis através da aplicação do Outlook. Para o uso é necessário utilizar pelo próprio navegador (google chrome por exemplo). Outro detalhe, é que o e-mail tem uma limitação de 2GB de armazenamento, sendo de responsabilidade da filial administrar o espaço das caixas de correio eletrônicos. Vou finalizar o atendimento por aqui. Qualquer outra eventualidade só nos contatar via chatbot. Um abraço e bom trabalho pra ti.'},
+]
+}
 
 ]
 

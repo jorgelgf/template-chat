@@ -11,6 +11,7 @@ import Locker from "./Locker";
 import Massivo from "./Massivo";
 import Mobile from "./Mobile";
 import OnBoarding from "./OnBoarding";
+import Outlook from "./Outlook";
 import PC from "./PC";
 import PDV from "./PDV";
 import PinMobile from "./Pinpad-mobile";
@@ -45,6 +46,7 @@ export default function Rout (){
         <Route path='/PinMobile' element={<PinMobile/>}/>
         <Route path='/PinPdv' element={<PinPdv/>}/>
         <Route path='/Filtro' element={<Filtro/>}/>
+        <Route path='/Outlook' element={<Outlook/>}/>
         </Routes>
     </>
 }

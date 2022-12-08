@@ -32,7 +32,7 @@ ColorButtonTv:'#270cd3',
 ColorTextServer:"#E1DEF3",
 ColorButtonFileServer:"#CD53EC",
 ColorButtonTextFileserver:"#E6D0EC",
-
+ColorButtonTextOutlook:"#d0ece3",
 
 
 
