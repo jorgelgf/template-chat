@@ -104,7 +104,7 @@ export const items =[
     values:[
         {header:'TEMPO DE ESPERA',text:'Há quanto tempo está com esse status no cadastro do cliente?'},
         {header:'EVIDÊNCIA',text:'Me envia uma foto do status demonstrado no sistema para o cliente, preciso do CPF do cliente impactado também.'},
-        {header:'AGUARDAR',text:'É necessário aguardar por no máximo 25 min, pois este é o tempo necessário para que o sistema valide todos os passos de segurança da plataforma.'},
+        {header:'AGUARDAR',text:'É necessário aguardar por no máximo 30 min, pois este é o tempo necessário para que o sistema valide todos os passos de segurança da plataforma. Eu acompanho você neste passo, caso o erro seja persistente me sinaliza por gentileza.'},
         {header:'CPF IMPACTADO',text:'Qual seria o CPF do cliente impactado?'},
         {header:'STATUS PERSISTE',text:'O status ainda persiste o mesmo para o cliente no sistema?'},
         {header:'IP DO MICRO',text:'Me informa o ip do computador para realizarmos alguns testes.'},
