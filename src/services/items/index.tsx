@@ -59,6 +59,7 @@ export const items =[
         {header:'ERRO RUÍDO/TRAVAMENTO',text:'Faz um pequeno vídeo demonstrando o erro gerado e me envia, aguardo você.'},
         {header:'INSERIR FOLHA',text:'Insere uma folha na scanner para eu realizar um teste, por gentileza.'},
         {header:'CONFIGURAÇÃO',text:'Aguarde um momento, vou realizar algumas configurações.'},
+        //eslint-disable-next-line
         {header:'SERVICE',text:'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\'},
     ]
     }
