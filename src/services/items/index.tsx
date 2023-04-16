@@ -34,7 +34,7 @@ export const items =[
         {header:'PROBLEMAS SAT PDV', text:'Tem algum pdv em loja com erro no SAT?'},
         {header:'IMP WIFI NÃO FUNCIONA', text:'Desliga a impressora, tira ela da tomada, tira o adaptador de rede, deixe ela desta forma por uns 5 min. Após esse processo, liga a impressora, deixa ela uns 2 min ligado e somente após esse tempo insere o adaptador de rede, aguardar mais 2 min e realiza o teste novamente.'},
         {header:'PROMELA DE ACESSO COLAB', text:'Me informa a matrícula do colaborador impactado, por gentileza.'},
-        {header:'OPERADOR SEM PERMISSÃO', text:'Boa noite. A loja deverá consultar na automação WEB o perfil do colaborador impactado.        Analise se o perfil impactado está associado apenas há uma filial (é necessário que esteja apenas para uma filial). É também necessário que o colaborador esteja com perfil ativo para operar pdv fixo em loja. Se tiveres dúvida, a loja poderá solicitar suporte junto a Auditoria (este passo é operacional de loja).'},
+        {header:'OPERADOR SEM PERMISSÃO', text:'A loja deverá consultar na automação WEB o perfil do colaborador impactado.        Analise se o perfil impactado está associado apenas há uma filial (é necessário que esteja apenas para uma filial). É também necessário que o colaborador esteja com perfil ativo para operar pdv fixo em loja. Tente utilizar para entrar no sistema a senha e login de rede, ou tente o e-mail e senha de rede.Se tiveres dúvida, a loja poderá solicitar suporte junto a Auditoria (este passo é operacional de loja).'},
     ]},
     {
         nameItem:'PC',
