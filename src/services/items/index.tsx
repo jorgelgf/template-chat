@@ -68,6 +68,7 @@ export const items =[
     {
         nameItem:'IMP RELATÓRIO',
     values:[
+        {header:'IMP SEM REDE',text:'Tenta reconectar o cabo de rede dela, analisa que no plug onde se conecta o cabo de rede tem que acender um led de cor verde (este é o indicativo de que tem rede no equipamento)'},
         {header:'QUAL COMPUTADOR INSTALAR?',text:'Me informa o ip do computador que deseja a instalação da impressora, por gentileza.'},
         {header:'QUAL SETOR DA IMP',text:'A impressora é de qual setor? Ex.: DCC, escritório, balcão.'},
         {header:'SUPRIMENTOS',text:'Realize as seguintes instruções na impressora: MENU - INFORMAÇÃO - PAG DE SUPRIMENTOS - IMPRIMIR. Após me envia uma foto da página de suprimentos gerada, esse passo é para obtermos as informações do tonner da impressora.'},
@@ -104,6 +105,7 @@ export const items =[
     {
         nameItem:'ONBOARDING',
     values:[
+        {header:'EXPIRAR E TENTAR NOVAMENTE',text:'Se o erro ainda persistir, tenta expirar a proposta e processar novamente, geralmente este procedimento faz o sistema prosseguir e isso não impactará no resultado final da proposta.'},
         {header:'TEMPO DE ESPERA',text:'Há quanto tempo está com esse status no cadastro do cliente?'},
         {header:'EVIDÊNCIA',text:'Me envia uma foto do status demonstrado no sistema para o cliente, preciso do CPF do cliente impactado também.'},
         {header:'AGUARDAR',text:'É necessário aguardar por no máximo 30 min, pois este é o tempo necessário para que o sistema valide todos os passos de segurança da plataforma. Eu acompanho você neste passo, caso o erro seja persistente me sinaliza por gentileza.'},
