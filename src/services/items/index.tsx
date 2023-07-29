@@ -40,6 +40,7 @@ export const items =[
         nameItem:'PC',
     values:[
         {header:"AGUARDE",text:"Aguarda um momento, estou analisando sua solicitação."},
+        {header:"HOSTNAME PC",text:"No campo de escrever o nome do usuário escreve assim: .\ \n Não precisa digitar nada de senha e não dê enter (me envia uma foto logo em seguida, por gentileza)"},
         {header:"IP",text:"Me informa o ip do micro, por gentileza."},
         {header:"INVENT/SÉRIE",text:"Me informa o número de série/inventário do computador, geralmente tem uma etiqueta colada no próprio micro, preciso de uma foto contendo esta numeração."},
         {header:"ERRO APLICAÇÃO",text:"Me envia uma foto/vídeo do erro que está sendo gerado."},
@@ -156,7 +157,7 @@ values:[
     {header:'TESTE ENERGIA',text:'Tenta desconectar o cabo de energia dela, conecta algum carregador de celular e valida se o carregador está funcionando (este passo é para podermos validar se tem energia no local que liga a TV).'},
     {header:'MinMac',text:'Tem um micro em loja, que é responsável por esses painéis, ele é um MiniMac. É um computador fininho, geralmente prateado, tem um ícone de uma maçã em cima dele, o equipamento fica no CPD. Ele é semelhante a imagem abaixo. Poderia econtrar o equipamento? Aguardo você.'},
     {header:'MediaVue',text:'Tem um micro em loja, que é responsável por esses painéis, ele é um MediaVue, o equipamento fica no CPD. É um micro mais largo, com nome MediaVue azul em cima (semelhante a este da foto abaixo). Poderia encontrar o equipamento? Aguardo você.'},
-    {header:'Giada',text:'Tem um micro em loja, que é responsável por esses painéis, ele é um Giada, o equipamento fica no CPD. É um micro mais pequeno, com nome Giada bem na parte da frente (semelhante a este da foto abaixo). Poderia encontrar o equipamento? Aguardo você.'},
+    {header:'Giada',text:'Tem um micro em loja, que é responsável por esses painéis, ele é um Giada, o equipamento fica no CPD. É um micro pequeno, com nome Giada bem na parte da frente (semelhante a este da foto abaixo). Poderia encontrar o equipamento? Aguardo você.'},
 ]
 }
 ,
